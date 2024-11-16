@@ -46,9 +46,19 @@ namespace WeatherApp.Controllers
 
 
         [HttpPost]
-        public IActionResult AddNew(WeatherForecast model)
+        public IActionResult AddNew(WeatherForecastDataTransferObject model)
         {
-            _weatherDbContext.WeatherForecasts.Add(model);
+
+            var _weatherData = new WeatherForecast 
+            {
+                Date = DateOnly.Parse(model.Date),
+                Summary = model.Summary,
+                TemperatureC = model.TemperatureC,
+                
+            };
+
+            _weatherDbContext.WeatherForecasts.Add(_weatherData);
+            _weatherDbContext.SaveChanges();
             return Ok();
             
         }

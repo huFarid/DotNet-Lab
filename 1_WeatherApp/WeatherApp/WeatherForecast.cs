@@ -14,4 +14,13 @@ namespace WeatherApp
 
         public string? Summary { get; set; }
     }
+    public class WeatherForecastDataTransferObject
+    {
+
+        public String? Date { get; set; }
+
+        public int TemperatureC { get; set; }
+
+        public string? Summary { get; set; }
+    }
 }
