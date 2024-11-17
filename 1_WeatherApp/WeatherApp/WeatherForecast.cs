@@ -23,4 +23,20 @@ namespace WeatherApp
 
         public string? Summary { get; set; }
     }
+    public class WeatherForecastEditDTO
+    {
+        public int Id { get; set; }
+
+        public String? Date { get; set; }
+
+        public int TemperatureC { get; set; }
+
+        public string? Summary { get; set; }
+    }
+    public class WeatherForecastDeleteDTO
+    {
+        public int Id { get; set; }
+
+    }
 }
+

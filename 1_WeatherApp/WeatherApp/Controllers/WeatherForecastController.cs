@@ -26,13 +26,7 @@ namespace WeatherApp.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             return _weatherDbContext.WeatherForecasts.ToList();
-            //return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            //{
-            //    Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            //    TemperatureC = Random.Shared.Next(-20, 55),
-            //    Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            //})
-            //.ToArray();
+
         }
 
         [HttpGet]
@@ -43,24 +37,77 @@ namespace WeatherApp.Controllers
 
         }
 
+        [HttpDelete]
+        [Route("{id}")]
+        public IActionResult? DeleteById(int id)
+        {
+            var weatherinfo = _weatherDbContext.WeatherForecasts.FirstOrDefault(x => x.Id == id);
+            if (weatherinfo != null) 
+            {
+                _weatherDbContext.WeatherForecasts.Remove(weatherinfo);
+                return Ok();
+            }
+            else
+            {
+                return BadRequest("Weather info was not found!");
+                    
+            }
+
+        }
 
 
         [HttpPost]
         public IActionResult AddNew(WeatherForecastDataTransferObject model)
         {
 
-            var _weatherData = new WeatherForecast 
+            try
             {
-                Date = DateOnly.Parse(model.Date),
-                Summary = model.Summary,
-                TemperatureC = model.TemperatureC,
-                
-            };
+                // validation
+                var _weatherData = new WeatherForecast
+                {
+                    Date = DateOnly.Parse(model.Date),
+                    Summary = model.Summary,
+                    TemperatureC = model.TemperatureC,
 
-            _weatherDbContext.WeatherForecasts.Add(_weatherData);
-            _weatherDbContext.SaveChanges();
-            return Ok();
+                };
+
+                _weatherDbContext.WeatherForecasts.Add(_weatherData);
+                _weatherDbContext.SaveChanges();
+                return Ok();
+
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex);
+            }
+
+
+        
             
+        }
+
+
+        [HttpPut]
+        public IActionResult Edit(WeatherForecastEditDTO model)
+        {
+
+            var weatherInfo = _weatherDbContext.WeatherForecasts.FirstOrDefault(x => x.Id == model.Id);
+
+            if (weatherInfo == null)
+            {
+                return BadRequest("Weather data is not found!");
+
+            }
+            else
+            {
+                weatherInfo.Summary = model.Summary;
+                weatherInfo.TemperatureC = model.TemperatureC;
+                weatherInfo.Date =DateOnly.Parse(model.Date);
+                _weatherDbContext.SaveChanges();
+                return Ok();
+            }
+
         }
 
 
