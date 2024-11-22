@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hossein\\Desktop\\Hossein\\Core\\27_practice\\Shop_DotNetCore\\Shop_DotNetCore.csproj": {}
+    "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Shop_DotNetCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hossein\\Desktop\\Hossein\\Core\\27_practice\\Shop_DotNetCore\\Shop_DotNetCore.csproj": {
+    "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Shop_DotNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hossein\\Desktop\\Hossein\\Core\\27_practice\\Shop_DotNetCore\\Shop_DotNetCore.csproj",
+        "projectUniqueName": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Shop_DotNetCore.csproj",
         "projectName": "Shop_DotNetCore",
-        "projectPath": "C:\\Users\\Hossein\\Desktop\\Hossein\\Core\\27_practice\\Shop_DotNetCore\\Shop_DotNetCore.csproj",
+        "projectPath": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Shop_DotNetCore.csproj",
         "packagesPath": "C:\\Users\\Hossein\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hossein\\Desktop\\Hossein\\Core\\27_practice\\Shop_DotNetCore\\obj\\",
+        "outputPath": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

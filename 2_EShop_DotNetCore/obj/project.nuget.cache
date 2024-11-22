@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "svXL0X+/v4o=",
+  "dgSpecHash": "quspanBYkfg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hossein\\Desktop\\Hossein\\Core\\27_practice\\Shop_DotNetCore\\Shop_DotNetCore.csproj",
+  "projectFilePath": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Shop_DotNetCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hossein\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Hossein\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

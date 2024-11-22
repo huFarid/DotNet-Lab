@@ -50,12 +50,9 @@ namespace Shop_DotNetCore.Data
                 Name = "Books",
                 Description = "The best Books"
             }
-            , new Category()
-            {
-                Id = 5,
-                Name = "Home",
-                Description = "The best Home"
-            });
+            );
+
+
 
             #endregion
 
