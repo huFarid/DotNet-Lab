@@ -11,7 +11,7 @@ namespace Shop_DotNetCore.Data
 
         public MyEshopContext(DbContextOptions<MyEshopContext> Options) : base(Options)
         {
-            
+
         }
 
         public DbSet<Category> Categories { get; set; }
@@ -19,10 +19,19 @@ namespace Shop_DotNetCore.Data
         public DbSet<CategoryToProduct> CategoryToProducts { get; set; }
         public DbSet<Product> Products { get; set; }
 
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
-            modelBuilder.Entity<CategoryToProduct>().HasKey(t => new {t.ProductId, t.CategoryId});
+            modelBuilder.Entity<CategoryToProduct>().HasKey(t => new { t.ProductId, t.CategoryId });
+
+
+            modelBuilder.Entity<Item>(c =>
+            {
+                c.Property(w => w.Price).HasColumnType("Money");
+                c.HasKey(w => w.ID);
+            });
 
 
 
@@ -63,6 +72,34 @@ namespace Shop_DotNetCore.Data
             }
             );
 
+
+            modelBuilder.Entity<Item>().HasData(
+                new Item { ID = 1, Price = 20, QuantityInStock = 440 },
+                new Item { ID = 2, Price = 30, QuantityInStock = 30 },
+                new Item { ID = 3, Price = 40, QuantityInStock = 34 },
+                new Item { ID = 4, Price = 20, QuantityInStock = 33 }
+
+                );
+
+            modelBuilder.Entity<Product>().HasData(
+                new Product { Id = 1, ItemID = 1, Name = "car" },
+                new Product { Id = 2, ItemID = 2, Name = "Book" }
+                );
+
+            modelBuilder.Entity<CategoryToProduct>().HasData(
+                
+                new CategoryToProduct { CategoryId = 1, ProductId = 1 },
+                new CategoryToProduct { CategoryId = 2, ProductId = 1 },
+                new CategoryToProduct { CategoryId = 3, ProductId = 1 },
+                new CategoryToProduct { CategoryId = 4, ProductId = 1 },
+                new CategoryToProduct { CategoryId = 5, ProductId = 1 },
+                new CategoryToProduct { CategoryId = 1, ProductId = 2 },
+                new CategoryToProduct { CategoryId = 2, ProductId = 2 },
+                new CategoryToProduct { CategoryId = 3, ProductId = 2 },
+                new CategoryToProduct { CategoryId = 4, ProductId = 2 },
+                new CategoryToProduct { CategoryId = 5, ProductId = 2 }
+
+            );
 
 
 

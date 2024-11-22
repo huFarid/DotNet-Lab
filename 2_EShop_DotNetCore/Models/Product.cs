@@ -15,6 +15,7 @@
         public ICollection<CategoryToProduct> CategoryToProducts { get; set; }
 
         public int ItemID { get; set; }
+        
 
         public Item Item { get; set; }
 
