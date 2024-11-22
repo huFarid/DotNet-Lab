@@ -23,6 +23,11 @@ namespace Shop_DotNetCore.Data
         {
 
             modelBuilder.Entity<CategoryToProduct>().HasKey(t => new {t.ProductId, t.CategoryId});
+
+
+
+
+
             #region Category Seed Data
 
             modelBuilder.Entity<Category>().HasData(new Category()
@@ -49,8 +54,16 @@ namespace Shop_DotNetCore.Data
                 Id = 4,
                 Name = "Books",
                 Description = "The best Books"
+            },
+            new Category()
+            {
+                Id = 5,
+                Name = "Laptop",
+                Description = "The best Laptop"
             }
             );
+
+
 
 
 
