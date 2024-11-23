@@ -1,8 +1,23 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Paint Store";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5 text-center">
+    <h1 class="display-4 text-primary mb-4">Galaxies & Wormholes</h1>
+
+    <div class="row g-4 justify-content-center">
+        @foreach (var item in Model)
+        {
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card shadow-sm">
+                    <img src="/images/@(item.Id).jpg" class="card-img-top" alt="Painting @(item.Id)" style="height: 160px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Painting @(item.Id)</h5>
+                        <p class="card-text text-muted">A stunning piece of nature.</p>
+                        <a href="/paintings/details/@(item.Id)" class="btn btn-primary btn-sm">View Details</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
 </div>

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Shop_DotNetCore.Data;
 
@@ -10,9 +11,11 @@ using Shop_DotNetCore.Data;
 namespace Shop_DotNetCore.Migrations
 {
     [DbContext(typeof(MyEshopContext))]
-    partial class MyEshopContextModelSnapshot : ModelSnapshot
+    [Migration("20241123094439_seed")]
+    partial class seed
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

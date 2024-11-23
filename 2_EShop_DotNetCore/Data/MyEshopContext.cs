@@ -19,8 +19,6 @@ namespace Shop_DotNetCore.Data
         public DbSet<CategoryToProduct> CategoryToProducts { get; set; }
         public DbSet<Product> Products { get; set; }
 
-
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
@@ -82,8 +80,9 @@ namespace Shop_DotNetCore.Data
                 );
 
             modelBuilder.Entity<Product>().HasData(
-                new Product { Id = 1, ItemID = 1, Name = "car" },
-                new Product { Id = 2, ItemID = 2, Name = "Book" }
+                new Product { Id = 1, ItemID = 1, Name = "Wormhole" },
+                new Product { Id = 2, ItemID = 2, Name = "Wormhole" },
+                new Product { Id = 3, ItemID = 3, Name = "Wormhole" }
                 );
 
             modelBuilder.Entity<CategoryToProduct>().HasData(
@@ -97,7 +96,12 @@ namespace Shop_DotNetCore.Data
                 new CategoryToProduct { CategoryId = 2, ProductId = 2 },
                 new CategoryToProduct { CategoryId = 3, ProductId = 2 },
                 new CategoryToProduct { CategoryId = 4, ProductId = 2 },
-                new CategoryToProduct { CategoryId = 5, ProductId = 2 }
+                new CategoryToProduct { CategoryId = 5, ProductId = 2 },
+                new CategoryToProduct { CategoryId = 1, ProductId = 3 },
+                new CategoryToProduct { CategoryId = 2, ProductId = 3 },
+                new CategoryToProduct { CategoryId = 3, ProductId = 3 },
+                new CategoryToProduct { CategoryId = 4, ProductId = 3 },
+                new CategoryToProduct { CategoryId = 5, ProductId = 3 }
 
             );
 

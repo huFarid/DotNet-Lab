@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
       "Id": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
