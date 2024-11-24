@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Shop_DotNetCore.Data;
 
@@ -10,9 +11,11 @@ using Shop_DotNetCore.Data;
 namespace Shop_DotNetCore.Migrations
 {
     [DbContext(typeof(MyEshopContext))]
-    partial class MyEshopContextModelSnapshot : ModelSnapshot
+    [Migration("20241124090341_Product description ")]
+    partial class Productdescription
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -243,21 +246,21 @@ namespace Shop_DotNetCore.Migrations
                             Id = 1,
                             Description = "Closest to Milky way",
                             ItemID = 1,
-                            Name = "Wormhole1"
+                            Name = "Wormhole"
                         },
                         new
                         {
                             Id = 2,
                             Description = "The first wormhole ever discovered",
                             ItemID = 2,
-                            Name = "Wormhole2"
+                            Name = "Wormhole"
                         },
                         new
                         {
                             Id = 3,
                             Description = "The farthest known wormhole ",
                             ItemID = 3,
-                            Name = "Wormhole3"
+                            Name = "Wormhole"
                         });
                 });
 

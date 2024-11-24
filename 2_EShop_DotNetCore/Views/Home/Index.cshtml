@@ -14,7 +14,9 @@
                     <div class="card-body">
                         <h5 class="card-title">Painting @(item.Id)</h5>
                         <p class="card-text text-muted">A stunning piece of nature.</p>
-                        <a href="/paintings/details/@(item.Id)" class="btn btn-primary btn-sm">View Details</a>
+                        <a asp-action="Detail"
+                           asp-controller="Home"
+                           asp-route-id="@item.Id">Details</a>
                     </div>
                 </div>
             </div>

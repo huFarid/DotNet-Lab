@@ -80,9 +80,9 @@ namespace Shop_DotNetCore.Data
                 );
 
             modelBuilder.Entity<Product>().HasData(
-                new Product { Id = 1, ItemID = 1, Name = "Wormhole" },
-                new Product { Id = 2, ItemID = 2, Name = "Wormhole" },
-                new Product { Id = 3, ItemID = 3, Name = "Wormhole" }
+                new Product { Id = 1, ItemID = 1, Name = "Wormhole1" , Description = "Closest to Milky way" },
+                new Product { Id = 2, ItemID = 2, Name = "Wormhole2" , Description = "The first wormhole ever discovered" },
+                new Product { Id = 3, ItemID = 3, Name = "Wormhole3" , Description = "The farthest known wormhole " }
                 );
 
             modelBuilder.Entity<CategoryToProduct>().HasData(

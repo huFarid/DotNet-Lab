@@ -16,9 +16,25 @@ namespace Shop_DotNetCore.Controllers
             _context = context;
         }
 
-        public IActionResult Detain()
+        public IActionResult Detail(int id)
         {
-            return null;
+            var product = _context.Products.Find(id);
+            if (product == null) {
+                return NotFound(); }
+
+            var categories = _context.Products
+                .Where(i => i.Id == id)
+                .SelectMany(p => p.CategoryToProducts)
+                .Select(ca => ca.Category)
+                .ToList();
+
+            var vm = new DetailsViewModel()
+            {
+                Product = product,
+                Categories = categories
+            };
+                
+            return View(vm);
         }
 
         public IActionResult Index()
