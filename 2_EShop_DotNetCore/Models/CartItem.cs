@@ -14,7 +14,7 @@ namespace Shop_DotNetCore.Models
         {
             
 
-            decimal totalPrice = Quantity * Item.Price;
+            decimal totalPrice = Item.Price * Quantity;
 
             return totalPrice;
 

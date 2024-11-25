@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Hossein\Desktop\Hossein\DotNet\2_EShop_DotNetCore
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Hossein/Desktop/Hossein/DotNet/2_EShop_DotNetCore/Views/Components/ProductGroupsComponent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xQcm9kdWN0R3JvdXBzQ29tcG9uZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Hossein/Desktop/Hossein/DotNet/2_EShop_DotNetCore/Views/Home/ContactUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0VXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Hossein/Desktop/Hossein/DotNet/2_EShop_DotNetCore/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hossein/Desktop/Hossein/DotNet/2_EShop_DotNetCore/Views/Home/ShowCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93Q2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Hossein/Desktop/Hossein/DotNet/2_EShop_DotNetCore/Views/Shared/Error.cshtml]
