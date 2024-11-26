@@ -1,0 +1,16 @@
+﻿@using Shop_DotNetCore.Data.Repositories
+@inject  IGroupRepository _GroupRepository;
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="dropdown10" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+    <div class="dropdown-menu" aria-labelledby="dropdown10">
+        @foreach (var item in _GroupRepository.GetAllCategories())
+        {
+            <a class="dropdown-item" href="/Group/@item.Id/@item.Name">@item.Name</a>
+        }
+    </div>
+</li>

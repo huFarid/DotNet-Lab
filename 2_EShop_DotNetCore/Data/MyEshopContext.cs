@@ -39,33 +39,33 @@ namespace Shop_DotNetCore.Data
             modelBuilder.Entity<Category>().HasData(new Category()
             {
                 Id = 1,
-                Name = "Clothes",
-                Description = "The best for winter",
+                Name = "Book",
+                Description = "Mathematics and physics",
 
             }
             , new Category()
             {
                 Id = 2,
                 Name = "Car",
-                Description = "The best car"
+                Description = "Effordable and fast"
             }
             , new Category()
             {
                 Id = 3,
                 Name = "Laptop",
-                Description = "The best LAptop"
+                Description = "The new generation of laptops"
             }
             , new Category()
             {
                 Id = 4,
-                Name = "Books",
-                Description = "The best Books"
+                Name = "Tablet",
+                Description = "Samsung"
             },
             new Category()
             {
                 Id = 5,
-                Name = "Laptop",
-                Description = "The best Laptop"
+                Name = "Movies",
+                Description = "Science-finction movies"
             }
             );
 
@@ -87,15 +87,8 @@ namespace Shop_DotNetCore.Data
             modelBuilder.Entity<CategoryToProduct>().HasData(
                 
                 new CategoryToProduct { CategoryId = 1, ProductId = 1 },
-                new CategoryToProduct { CategoryId = 2, ProductId = 1 },
-                new CategoryToProduct { CategoryId = 3, ProductId = 1 },
-                new CategoryToProduct { CategoryId = 4, ProductId = 1 },
-                new CategoryToProduct { CategoryId = 5, ProductId = 1 },
                 new CategoryToProduct { CategoryId = 1, ProductId = 2 },
                 new CategoryToProduct { CategoryId = 2, ProductId = 2 },
-                new CategoryToProduct { CategoryId = 3, ProductId = 2 },
-                new CategoryToProduct { CategoryId = 4, ProductId = 2 },
-                new CategoryToProduct { CategoryId = 5, ProductId = 2 },
                 new CategoryToProduct { CategoryId = 1, ProductId = 3 },
                 new CategoryToProduct { CategoryId = 2, ProductId = 3 },
                 new CategoryToProduct { CategoryId = 3, ProductId = 3 },

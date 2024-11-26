@@ -1,12 +1,13 @@
-﻿@model IEnumerable<Category>
+﻿@model IEnumerable<ShowGroupViewModel>
 
-<ul>
-    @foreach(var Item in Model)
+<ul class="list-group">
+    @foreach (var Item in Model)
     {
-        <li>
-            <a href="#">@Item.Name</a>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <a href="/Group/@Item.GroupId/@Item.Name" class="text-decoration-none text-primary fw-bold">@Item.Name</a>
 
+            <span class="ms-3">@Item.ProductCount</span>
         </li>
     }
-
 </ul>
+   
