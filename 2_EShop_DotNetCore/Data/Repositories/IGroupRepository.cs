@@ -31,8 +31,6 @@ namespace Shop_DotNetCore.Data.Repositories
                     GroupId = c.Id,
                     Name = c.Name,
                     ProductCount = _context.CategoryToProducts.Count(g => g.CategoryId == c.Id)
-
-
                 }).ToList();
 
 

@@ -10,6 +10,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews(); 
 #region
 builder.Services.AddScoped<IGroupRepository, GroupRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+
 //builder.Services.AddSingleton<IGroupRepository, GroupRepository>();
 //builder.Services.AddTransient<IGroupRepository, GroupRepository>();
 

@@ -17,6 +17,7 @@ namespace Shop_DotNetCore.Data
         public DbSet<Item> Items { get; set; }
         public DbSet<CategoryToProduct> CategoryToProducts { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Users> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -29,8 +30,6 @@ namespace Shop_DotNetCore.Data
                 c.Property(w => w.Price).HasColumnType("Money");
                 c.HasKey(w => w.ID);
             });
-
-
 
 
 

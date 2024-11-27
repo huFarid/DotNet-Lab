@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|c:\\users\\hossein\\desktop\\hossein\\dotnet\\2_eshop_dotnetcore\\views\\shared\\_groups.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|solutionrelative:views\\shared\\_groups.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|c:\\users\\hossein\\desktop\\hossein\\dotnet\\2_eshop_dotnetcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|c:\\users\\hossein\\desktop\\hossein\\dotnet\\2_eshop_dotnetcore\\views\\components\\productgroupscomponent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|solutionrelative:views\\components\\productgroupscomponent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|c:\\users\\hossein\\desktop\\hossein\\dotnet\\2_eshop_dotnetcore\\components\\productgroupscomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|solutionrelative:components\\productgroupscomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|c:\\users\\hossein\\desktop\\hossein\\dotnet\\2_eshop_dotnetcore\\data\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|solutionrelative:data\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|c:\\users\\hossein\\desktop\\hossein\\dotnet\\2_eshop_dotnetcore\\data\\repositories\\igrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|solutionrelative:data\\repositories\\igrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|c:\\users\\hossein\\desktop\\hossein\\dotnet\\2_eshop_dotnetcore\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|c:\\users\\hossein\\desktop\\hossein\\dotnet\\2_eshop_dotnetcore\\data\\myeshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|solutionrelative:data\\myeshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|c:\\users\\hossein\\desktop\\hossein\\dotnet\\2_eshop_dotnetcore\\views\\account\\successfulregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|solutionrelative:views\\account\\successfulregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|c:\\users\\hossein\\desktop\\hossein\\dotnet\\2_eshop_dotnetcore\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80E83E60-9325-409B-BD91-505C468B7267}|Shop_DotNetCore.csproj|c:\\users\\hossein\\desktop\\hossein\\dotnet\\2_eshop_dotnetcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,80 +50,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductGroupsComponent.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Views\\Components\\ProductGroupsComponent.cshtml",
-              "RelativeDocumentMoniker": "Views\\Components\\ProductGroupsComponent.cshtml",
-              "ToolTip": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Views\\Components\\ProductGroupsComponent.cshtml",
-              "RelativeToolTip": "Views\\Components\\ProductGroupsComponent.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T23:08:38.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Groups.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Views\\Shared\\_Groups.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Groups.cshtml",
-              "ToolTip": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Views\\Shared\\_Groups.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Groups.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T21:58:20.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAWwB0AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T20:43:06.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Data\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Data\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\IUserRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA1wBgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T19:09:19.479Z",
+              "WhenOpened": "2024-11-27T17:30:18.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IGroupRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Data\\Repositories\\IGroupRepository.cs",
-              "RelativeDocumentMoniker": "Data\\Repositories\\IGroupRepository.cs",
-              "ToolTip": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Data\\Repositories\\IGroupRepository.cs",
-              "RelativeToolTip": "Data\\Repositories\\IGroupRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwDAAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T18:58:56.048Z",
+              "WhenOpened": "2024-11-27T15:59:12.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductGroupsComponent.cs",
-              "DocumentMoniker": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Components\\ProductGroupsComponent.cs",
-              "RelativeDocumentMoniker": "Components\\ProductGroupsComponent.cs",
-              "ToolTip": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Components\\ProductGroupsComponent.cs",
-              "RelativeToolTip": "Components\\ProductGroupsComponent.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCsAAAAAAAAA",
+              "Title": "MyEshopContext.cs",
+              "DocumentMoniker": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Data\\MyEshopContext.cs",
+              "RelativeDocumentMoniker": "Data\\MyEshopContext.cs",
+              "ToolTip": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Data\\MyEshopContext.cs",
+              "RelativeToolTip": "Data\\MyEshopContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAApwBMAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T12:24:52.565Z",
+              "WhenOpened": "2024-11-27T17:57:33.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SuccessfulRegistration.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Views\\Account\\SuccessfulRegistration.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\SuccessfulRegistration.cshtml",
+              "ToolTip": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Views\\Account\\SuccessfulRegistration.cshtml",
+              "RelativeToolTip": "Views\\Account\\SuccessfulRegistration.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T16:58:04.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:02:30.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T15:59:25.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IGroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Data\\Repositories\\IGroupRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\IGroupRepository.cs",
+              "ToolTip": "C:\\Users\\Hossein\\Desktop\\Hossein\\DotNet\\2_EShop_DotNetCore\\Data\\Repositories\\IGroupRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\IGroupRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:48:40.655Z",
               "EditorCaption": ""
             }
           ]
