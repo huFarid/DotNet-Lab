@@ -22,7 +22,7 @@ namespace LocationInfo.Controllers
 
 
 
-        [HttpGet("/{Id}")]
+        [HttpGet("{Id}")]
         public ActionResult GetCity(int Id)
         {
             var city = CitiesDataStore.citiesDataStore.Cities.FirstOrDefault(x => x.Id == Id);

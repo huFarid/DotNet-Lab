@@ -64,7 +64,31 @@ namespace LocationInfo
 
 
                 },
-                new CityDTO() { Id = 3, Name = "Esfahan", Description = "Industrial" }
+                new CityDTO() { Id = 3, Name = "Esfahan", Description = "Industrial" ,
+                                 TouristicLocations = new List <TouristicLocationsDto>
+                {
+                     new TouristicLocationsDto()
+                    {
+                        Id = 7,
+                        Name = "Hamedan Eiffel Tower3",
+                        Description ="Largest in Hamedan3"
+                    }
+                    ,
+                     new TouristicLocationsDto()
+                    {
+                        Id = 8,
+                        Name = "Hamedan River3",
+                        Description ="Hamedan River3 "
+                    }
+                     , new TouristicLocationsDto()
+                    {
+                        Id = 9,
+                        Name = "Hamedan Eiffel Tower 3",
+                        Description ="Second best in Hamedan3"
+                    }
+
+                 }
+                }
             };
         }
     }
