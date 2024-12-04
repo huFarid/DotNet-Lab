@@ -20,7 +20,7 @@ namespace LocationInfo.Controllers
             return (Ok(city.TouristicLocations));
         }
 
-        [HttpGet("{TouristicLocationID}")]
+        [HttpGet("{TouristicLocationID}", Name ="GetTouristicLocation")]
         public ActionResult<TouristicLocationsDto> GetTouristicLocation(int cityId, int TouristicLocationID)
         {
             var city = CitiesDataStore.citiesDataStore.Cities.FirstOrDefault(i => i.Id == cityId);
@@ -39,41 +39,73 @@ namespace LocationInfo.Controllers
 
         }
 
+        #region POST
+
         [HttpPost]
-        public ActionResult<TouristicLocationsDto> CreateTouristicLocations (
-              int cityId, TouristicLocationsForCreationDto touristicLocations)
+        public ActionResult<TouristicLocationsDto> CreateTouristicLocation(
+            int cityID, TouristicLocationsForCreationDto touristicLocation)
         {
-            var city = CitiesDataStore.citiesDataStore.Cities.FirstOrDefault (i => i.Id == cityId);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            var city = CitiesDataStore.citiesDataStore.Cities.FirstOrDefault(i => i.Id == cityID);
             if (city == null)
             {
                 return NotFound();
             }
 
             var maxIdOfTouristicLocations = CitiesDataStore.citiesDataStore.Cities.SelectMany(c => c.TouristicLocations)
-                .Max(p => p.Id);
+                .Max(i => i.Id);
 
 
 
-            var  createdTouristicLocation = new TouristicLocationsDto()
-            { Id = maxIdOfTouristicLocations + 1,
-              Name = touristicLocations.Name,
-              Description = touristicLocations.Description,
+            var createdTouristicLocationDTO = new TouristicLocationsDto
+            {
+                Id = maxIdOfTouristicLocations + 1,
+                Name = touristicLocation.Name,
+                Description = touristicLocation.Description
             };
 
-            city.TouristicLocations.Add(createdTouristicLocation);
+            city.TouristicLocations.Add(createdTouristicLocationDTO);
 
-            return CreatedAtAction("GetPointOfInterest",
-                new
-                {
-                    cityId = cityId,
-                    Touristiclocationsid = createdTouristicLocation.Id
-                },
-                createdTouristicLocation
-                );
+
+            return CreatedAtAction("GetTouristicLocation",
+                           new
+                           {
+                               cityId = cityID,
+                               TouristicLocationID = createdTouristicLocationDTO.Id
+                           },
+                           createdTouristicLocationDTO
+                           );
+
 
 
 
         }
+        #endregion
+
+        #region UPDATE
+        [HttpPut("{touristicLocationId}")]
+        public ActionResult TrouristicLocationsDto(
+            int cityID, int touristicLocationId, TouristicLocationsForUpdateDto touristicLocationsForUpdate)
+        {
+            var city = CitiesDataStore.citiesDataStore.Cities.FirstOrDefault(i => i.Id == cityID);
+            if(city == null) 
+            { return NotFound(); }
+
+            var touristicLocation = city.TouristicLocations.SingleOrDefault(c => c.Id == touristicLocationId);
+
+
+            touristicLocation.Name = touristicLocationsForUpdate.Name;
+            touristicLocation.Description = touristicLocationsForUpdate.Description;
+
+            return NoContent();
+        }
+
+        #endregion
+
+
 
     }
 }
